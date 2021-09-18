@@ -15,7 +15,7 @@ public:
         
         for(int i = 3; i < nums.size(); i++)
         {
-            s.push_back(max(s[i-2]+nums[i], s[i-3]+nums[i])); 
+            s.push_back(max(s[i-2]+nums[i], s[i-1])); 
             
         }
         
